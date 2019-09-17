@@ -1,4 +1,4 @@
-package br.com.projeto.factory;
+package factory;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
