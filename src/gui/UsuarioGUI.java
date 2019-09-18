@@ -178,8 +178,9 @@ public class UsuarioGUI extends javax.swing.JFrame {
         usuarios.setTelefone(jTtelefone.getText());
         
         if((jTnome.getText().isEmpty()) || (jTcpf.getText().isEmpty()) || (jTemail.getText().isEmpty()) || (jTtelefone.getText().isEmpty())){
+            JOptionPane.showMessageDialog(null, )
+        }//if
         
-    }
         
     }//GEN-LAST:event_jBcadastrarActionPerformed
 
