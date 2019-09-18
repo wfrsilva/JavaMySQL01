@@ -7,5 +7,6 @@ https://www.oficinadanet.com.br/artigo/java/criando-um-cadastro-de-usuario-em-ja
 
 
 Informações:
+
 Acessar mysql pelo ms-dos:
 http://blog.tiagopassos.com/2010/10/12/acessar-o-mysql-pelo-prompt-do-windows/ 
