@@ -184,7 +184,7 @@ public class UsuarioGUI extends javax.swing.JFrame {
         }//if
         else{
             UsuarioDAO dao = new UsuarioDAO();
-            dao.adciona(usuarios);
+            dao.adiciona(usuarios);
             JOptionPane.showMessageDialog(null, "Usuário " +jTnome.getText()+ " inserido com sucesso!");
         }//else
         
