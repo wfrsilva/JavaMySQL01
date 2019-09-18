@@ -1,5 +1,7 @@
 package gui;
-
+import modelo.Usuario;
+import dao.UsuarioDAO;
+import javax.swing.JOptionPane;
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -178,9 +180,18 @@ public class UsuarioGUI extends javax.swing.JFrame {
         usuarios.setTelefone(jTtelefone.getText());
         
         if((jTnome.getText().isEmpty()) || (jTcpf.getText().isEmpty()) || (jTemail.getText().isEmpty()) || (jTtelefone.getText().isEmpty())){
-            JOptionPane.showMessageDialog(null, )
+            JOptionPane.showMessageDialog(null, "Os campos não podem retornar vazios");
         }//if
+        else{
+            UsuarioDAO dao = new UsuarioDAO();
+            dao.adciona(usuarios);
+            JOptionPane.showMessageDialog(null, "Usuário " +jTnome.getText()+ " inserido com sucesso!");
+        }//else
         
+        jTnome.setText("");
+        jTcpf.setText("");
+        jTemail.setText("");
+        jTtelefone.setText("");
         
     }//GEN-LAST:event_jBcadastrarActionPerformed
 
