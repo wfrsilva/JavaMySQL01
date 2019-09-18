@@ -10,3 +10,5 @@ Informações:
 
 Acessar mysql pelo ms-dos:
 http://blog.tiagopassos.com/2010/10/12/acessar-o-mysql-pelo-prompt-do-windows/ 
+
+![Alt Text](https://github.com/{wfrsilva}/{JavaMySQL01}/raw/{master}/path/to/image.gif)
